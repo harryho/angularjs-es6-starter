@@ -1,0 +1,50 @@
+body {
+    background: lightgrey;
+    color: #fff;
+}
+
+#app-title {
+    padding-left: 20px;
+    color: #337ab7;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a {
+    color: #03A9F4;
+}
+
+.sidebar {
+    background: grey;
+}
+
+.topbar {
+    background: lightgrey;
+    display: block;
+    min-height: 32px;
+    margin-top: 3px;
+}
+
+.main {
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+}
+
+.header {
+    color: darkblue;
+}
+
+.content {
+    color: #25282a;
+    display: block;
+    max-height: 400px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: grey;
+}
