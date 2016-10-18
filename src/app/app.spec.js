@@ -14,7 +14,7 @@ describe('app', () => {
         });
 
         it('should contain the starter url', () => {
-            expect(ctrl.url).toBe('https://github.com/harryho/');
+            expect(ctrl.url).toBe('https://github.com/harryho/ng1.x-webpack-es6-starter.git');
         });
     });
 });

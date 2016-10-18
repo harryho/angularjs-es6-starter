@@ -21,10 +21,10 @@ This starter was inspired by another similar angular webpack starter repository.
 
 ```bash
 # clone our repo
-$ git clone https://github.com/harryho/ng1-webpack-oauth2.git newApp
+$ git clone https://github.com/harryho/ng1.x-webpack-es6-starter.git demoApp
 
 # change directory to your app
-$ cd newApp
+$ cd demoApp
 
 # install the dependencies with npm
 $ npm install

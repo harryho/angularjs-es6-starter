@@ -3,7 +3,7 @@ import angular from 'angular';
 
 class AppUiCtrl {
     constructor() {
-        this.url = 'https://github.com/harryho';
+        this.url = 'https://github.com/harryho/ng1.x-webpack-es6-starter.git';
         this.headerTitle = 'Dashboard';
     }
 }

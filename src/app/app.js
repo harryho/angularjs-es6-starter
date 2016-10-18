@@ -33,7 +33,7 @@ class AppCtrl {
     }
 }
 
-const REPO_URL = 'https://github.com/harryho/';
+const REPO_URL = 'https://github.com/harryho/ng1.x-webpack-es6-starter.git';
 
 const MODULE_NAME = 'app';
 
