@@ -1,4 +1,4 @@
-# ng1.x-webpack-es6-starter
+# angularjs-webpack-es6-starter
 
 This starter was inspired by another similar angular webpack starter repository. It simply includes font-awesome, bootstrap for the people who don't want to use boostrap-webpack, font-awesome-webpack. I find it saves us so much effort to create prototype, since we don't need spectacular UI.
 
@@ -21,7 +21,7 @@ This starter was inspired by another similar angular webpack starter repository.
 
 ```bash
 # clone our repo
-$ git clone https://github.com/harryho/ng1.x-webpack-es6-starter.git demoApp
+$ git clone https://github.com/harryho/angularjs-webpack-es6-starter.git demoApp
 
 # change directory to your app
 $ cd demoApp

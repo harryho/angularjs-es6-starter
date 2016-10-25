@@ -1,5 +1,4 @@
 import angular from 'angular';
-import jquery from 'jquery';
 
 class DashboardController {
     constructor() {

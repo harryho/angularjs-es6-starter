@@ -1,7 +1,6 @@
 import jquery from 'jquery';
 import angular from 'angular';
 
-
 const MinimalizaSidebarDirective = $timeout => {
 
     return {
@@ -9,9 +8,6 @@ const MinimalizaSidebarDirective = $timeout => {
         template: '<a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="" ng-click="minimalize()"><i class="fa fa-bars"></i></a>',
         link(scope) {
             scope.minimalize = function() {
-
-                console.log(' mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm ');
-
                 let timeout;
                 jquery("body").toggleClass("mini-navbar");
                 if (!jquery('body').hasClass('mini-navbar') || jquery('body').hasClass('body-small')) {

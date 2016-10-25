@@ -18,6 +18,6 @@ describe('Controller: DashboardController', () => {
 
 
     it('DashboardController should contain the subject ', () => {
-        expect(ctrl.subject != null).toBe(true);
+        expect(ctrl.subject !== null).toBe(true);
     });
 });

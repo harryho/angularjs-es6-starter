@@ -102,14 +102,6 @@ module.exports = function makeWebpackConfig() {
                 // Use style-loader in development.
                 loader: isTest ? 'null' : ExtractTextPlugin.extract('style-loader', 'css-loader?sourceMap!postcss-loader')
             },
-            // { test: /\.woff(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/font-woff" },
-            // { test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/font-woff" },
-            // { test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=application/octet-stream" },
-            // { test: /\.eot(\?v=\d+\.\d+\.\d+)?$/, loader: "file" },
-            // { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url?limit=10000&mimetype=image/svg+xml" },
-            // { test: /.(png|woff(2)?|eot|ttf|svg)(\?[a-z0-9=\.]+)?$/, loader: 'url-loader?limit=100000' },
-
-
             {
                 // ASSET LOADER
                 // Reference: https://github.com/webpack/file-loader
@@ -143,7 +135,7 @@ module.exports = function makeWebpackConfig() {
                 /\.spec\.js$/
             ],
             loader: 'isparta-loader'
-        })
+        });
     }
 
     /**
@@ -178,7 +170,7 @@ module.exports = function makeWebpackConfig() {
             // Extract css files
             // Disabled when in test mode or not in build mode
             new ExtractTextPlugin('[name].[hash].css', { disable: !isProd })
-        )
+        );
     }
 
     // Add build specific plugins
@@ -201,7 +193,7 @@ module.exports = function makeWebpackConfig() {
             new CopyWebpackPlugin([{
                 from: __dirname + '/src/public'
             }])
-        )
+        );
     }
 
     /**

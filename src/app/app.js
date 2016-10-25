@@ -1,7 +1,6 @@
 import angular from 'angular';
 import ngUiRouter from 'angular-ui-router';
 import ngUiRouterStateHelper from 'angular-ui-router.statehelper';
-
 import jquery from 'jquery';
 
 
@@ -17,7 +16,7 @@ import '../style/bootstrap.css';
 import '../style/animate.css';
 import '../style/style.css';
 import '../style/app.css';
-// import '../style/site.css';
+
 
 let app = () => {
     return {
@@ -33,7 +32,7 @@ class AppCtrl {
     }
 }
 
-const REPO_URL = 'https://github.com/harryho/ng1.x-webpack-es6-starter.git';
+const REPO_URL = 'https://github.com/harryho/angularjs-webpack-es6-starter.git';
 
 const MODULE_NAME = 'app';
 

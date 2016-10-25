@@ -29,7 +29,7 @@ describe('Controller: AppUiCtrl', () => {
 
     it('AppUiCtrl should contain url', () => {
         expect(ctrl.url).toBeDefined();
-        expect(ctrl.url).toBe('https://github.com/harryho/ng1.x-webpack-es6-starter.git');
+        expect(ctrl.url).toBe('https://github.com/harryho/angularjs-webpack-es6-starter.git');
 
     });
 });
@@ -82,7 +82,7 @@ describe('directive: footer ', () => {
             scope = $rootScope.$new();
             element = '<a href="{{vm.url}}"> <strong>Github Repo</strong> . </a>';
             scope.vm = {};
-            scope.vm.url = 'https://github.com/harryho/ng1.x-webpack-es6-starter.git';
+            scope.vm.url = 'https://github.com/harryho/angularjs-webpack-es6-starter.git';
             element = $compile(element)(scope);
             scope.$digest();
         });
@@ -91,7 +91,7 @@ describe('directive: footer ', () => {
     describe('with the given value', () => {
 
         it("should has url   ", function() {
-            expect(element.attr('href')).toContain('https://github.com/harryho/ng1.x-webpack-es6-starter.git');
+            expect(element.attr('href')).toContain('https://github.com/harryho/angularjs-webpack-es6-starter.git');
         });
     });
 

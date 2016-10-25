@@ -1,9 +1,8 @@
-import jquery from 'jquery';
 import angular from 'angular';
 
 class AppUiCtrl {
     constructor() {
-        this.url = 'https://github.com/harryho/ng1.x-webpack-es6-starter.git';
+        this.url = 'https://github.com/harryho/angularjs-webpack-es6-starter.git';
         this.headerTitle = 'Dashboard';
     }
 }
